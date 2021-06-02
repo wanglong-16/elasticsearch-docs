@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d05f1dd-e368-42d6-816c-36a5fb23b4a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/base/ES下载安装部署.md" beforeDir="false" afterPath="$PROJECT_DIR$/base/ES下载安装部署.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/使用命令行和ES交互.md" beforeDir="false" afterPath="$PROJECT_DIR$/base/使用命令行和ES交互.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster/集群内部的原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/集群内部的原理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indices/文档变更的乐观并发控制.md" beforeDir="false" afterPath="$PROJECT_DIR$/indices/文档变更的乐观并发控制.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indices/索引参数配置优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/indices/索引参数配置优化.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster/部署指南.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,7 @@
       <updated>1615881592934</updated>
       <workItem from="1615881594523" duration="6725000" />
       <workItem from="1617260028590" duration="2893000" />
+      <workItem from="1622195009015" duration="742000" />
     </task>
     <servers />
   </component>
