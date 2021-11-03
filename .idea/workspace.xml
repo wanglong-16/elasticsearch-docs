@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d05f1dd-e368-42d6-816c-36a5fb23b4a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cluster/部署指南.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shard/分片" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/搜索相关.md" beforeDir="false" afterPath="$PROJECT_DIR$/search/搜索相关.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +51,17 @@
       <workItem from="1615881594523" duration="6725000" />
       <workItem from="1617260028590" duration="2893000" />
       <workItem from="1622195009015" duration="742000" />
+      <workItem from="1631449453856" duration="1447000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="455" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631450051371">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="455" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1631450051371" />
   </component>
 </project>

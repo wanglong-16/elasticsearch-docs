@@ -64,12 +64,22 @@ curl -XPUT 'http://39.106.228.247:9200/another_user?pretty' -H 'Content-Type: ap
     }
 }'
 
-#### 5、删除索引
+
+#### 5、修改索引mapping配置, 添加动态列 【指定索引/类型】
+
+curl -XPOST 'http://192.168.2.13:29200/dmp-customer-portrait-20210708.2/data_filter/_mapping?pretty' -H 'Content-Type:application/json' -d '
+{"data_filter":{"properties":{"must_not_loss":{"type":"integer","doc_values" : false}}}}'
+
+#### 6、通过文档ID更新文档字段 【局部更新】
+
+curl -XPOST 'http://192.168.2.13:29200/dmp-customer-portrait-20210708.2/data_filter/731891/_update' -H 'Content-Type:application/json' -d '{"doc":{"must_not_loss": 1}}'
+
+#### 7、删除索引
 
 curl -XDELETE 'http://39.106.228.247:9200/twitter'
 
 
-#### 6、查看集群信息
+#### 8、查看集群信息
 
 6.1 查看节点
 curl -X GET "http://39.106.228.247:9200/_cat/nodes?v&pretty"

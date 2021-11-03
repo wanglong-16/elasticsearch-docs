@@ -1,0 +1,10 @@
+每一个shard是一个Lucene 实例。Elasticsearch 基于 Lucene，shard 是一个 Lucene 实例，
+被 Elasticsearch 自动管理。index 是一个逻辑命名空间，shard 是具体的物理概念，
+建索引、查询等都是具体的shard在工作。shard 包括primary shard [主分片]和 replica shard[副本分片]，
+写数据时，先写到primary shard，然后，同步到replica shard，查询时，primary 和 replica 充当相同的作用。
+replica shard 可以有多份，也可以没有，replica shard的存在有两个作用，
+一是容灾，如果primary shard 挂了，数据也不会丢失，集群仍然能正常工作；
+二是提高性能，因为replica 和 primary shard 都能处理查询。
+另外，如上图右侧红框所示，shard数和replica数都可以设置，shard 数只能在建立index 时设置，后期不能更改，
+但是，replica 数可以随时更改。但是，由于 Elasticsearch 很友好的封装了这部分，在使用Elasticsearch 的过程中，
+我们一般仅需要关注 index 即可，不需关注shard
